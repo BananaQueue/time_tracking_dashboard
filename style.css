@@ -133,7 +133,7 @@ section {
 
 .weekly {
     display: flex;
-    flex-direction: columnn;
+    flex-direction: column;
 }
 
 .monthly {
