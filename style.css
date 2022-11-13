@@ -1,0 +1,277 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+
+.container {
+    height: 100vh;
+    margin: auto;
+    padding-top: 15px;
+    flex-direction: row;
+
+}
+
+section {
+    display: flex;
+    margin: auto;
+
+}
+
+#profile {
+    background-color: hsl(235, 46%, 20%);
+    height: 520px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+#image {
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px white;
+
+}
+
+#desc,
+#pic {
+    padding: 24px;
+}
+
+#pre {
+    color: hsl(236, 100%, 87%);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#info {
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+#date {
+    font-size: 1.3rem;
+    color: hsl(236, 100%, 87%);
+    height: 120px;
+    width: 250px;
+    padding: 16px;
+
+}
+
+#stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tiles {
+    background-color: azure;
+    height: 240px;
+    width: 250px;
+    border-radius: 18px;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.textTile {
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#selfCare {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.daily {
+    display: flex;
+    flex-direction: column;
+}
+
+.weekly {
+    display: flex;
+    flex-direction: row;
+}
+
+.monthly {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.present {
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+
+}
+
+.past {
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+}
+
+.noDisplay {
+    color: hsl(235, 45%, 61%);
+    display: none;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15px;
+}
+
+.textTile:hover {
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#day:hover {
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#week:hover {
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#month:hover {
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 1400px) {
+
+    #stats {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #profile {
+        height: 200px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #info {
+        height: 150px;
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #image {
+        height: 65px;
+    }
+
+    #desc,
+    #pic {
+        margin: auto;
+        padding: 16px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+
+    #date {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .tiles,
+    .textTile {
+        width: 350px;
+    }
+
+    .tiles {
+        height: 200px;
+    }
+
+    .textTile {
+        height: 160px;
+    }
+
+    .daily,
+    .weekly,
+    .monthly {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .present {
+        font-size: 45px;
+    }
+
+
+
+}
