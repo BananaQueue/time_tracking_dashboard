@@ -133,12 +133,12 @@ section {
 
 .weekly {
     display: flex;
-    flex-direction: row;
+    flex-direction: columnn;
 }
 
 .monthly {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
@@ -272,6 +272,7 @@ section {
         font-size: 45px;
     }
 
-
+    .past {
+        font-size: 14px;
 
 }
