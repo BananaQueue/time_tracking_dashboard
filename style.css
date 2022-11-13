@@ -126,21 +126,12 @@ section {
 
 }
 
-.daily {
-    display: flex;
-    flex-direction: column;
-}
-
-.weekly {
-    display: flex;
-    flex-direction: column;
-}
-
+.daily,
+.weekly,
 .monthly {
     display: flex;
     flex-direction: column;
 }
-
 
 .present {
     font-family: 'Rubik', sans-serif;
